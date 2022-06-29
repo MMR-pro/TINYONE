@@ -1,0 +1,190 @@
+/* 
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(153, 135, 135); /*temporery*/
+  font-family: "Poppins", sans-serif;
+  margin: auto auto;
+}
+
+header {
+  background-color: #fede00;
+  max-width: 100rem;
+  margin: auto auto;
+}
+
+.logo {
+  margin: 0;
+}
+
+.backGround {
+  background-color: transparent; /*temporery*/
+  max-width: 60rem;
+  margin: auto auto;
+  padding: 3rem 0;
+}
+
+.fas {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 8px 0 0 0;
+  padding: 0;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+}
+
+.nav-item {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-right: 3.75rem;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.addText {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.details {
+  margin: 0;
+  padding: 8rem 0 0 0;
+}
+.Previwe {
+  margin: 0 0 0 3.25rem;
+  padding: 2rem 0 0 0;
+}
+
+#white {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 35rem;
+  width: 25rem;
+  border-radius: 1rem;
+}
+#black {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 30rem;
+  width: 23rem;
+}
+
+.fab {
+  font-size: 2.75rem;
+  margin-right: 2rem;
+  margin-top: 2.5rem;
+}
+
+.main {
+  background-color: white;
+  max-width: 100rem;
+  margin: auto auto;
+}
+
+.mainBG {
+  background-color: transparent; /*temporery*/
+  max-width: 60rem;
+  margin: auto auto;
+  padding: 3rem 0;
+}
+
+.mainTop {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.card {
+  display: grid;
+  border: 0;
+  max-width: 19rem;
+  grid-template-columns: 0.5fr 2.5fr;
+}
+
+.card:nth-child(2) {
+  margin: 0 1.5rem;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+footer {
+  background-color: black;
+  color: beige;
+}
+
+footer h2 {
+  color: #fede00;
+  font-weight: bold;
+}
+
+.footerBg {
+  max-width: 50rem;
+  margin: auto auto;
+  padding: 3rem 0;
+}
+
+.footerBg1 {
+  max-width: 60rem;
+  margin: auto auto;
+  padding: 3rem 0;
+}
+
+.footerMain {
+  text-align: center;
+}
+
+.socialIcons i {
+  color: #fede00;
+  font-size: 3.5rem;
+  margin: 2.5rem 2rem 0;
+}
+
+.btn {
+  background-color: #fede00;
+  color: black;
+  width: 10rem;
+  height: 3.75rem;
+}
+
+input {
+  margin: 1rem 0.5rem;
+  padding: 1rem;
+}
+
+.inputField {
+  width: 35rem;
+  border-radius: 8px;
+}
